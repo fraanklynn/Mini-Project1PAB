@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class FormPage extends StatefulWidget {
   final Map<String, dynamic>? initialData; 
@@ -40,12 +41,12 @@ class _FormPageState extends State<FormPage> {
       );
       return;
     }
-    Navigator.pop(context, {
-      "nama": nama,
-      "jenis": jenis,
-      "berat": berat,
-    });
-  }
+    Get.back(result: {
+    "nama": nama,
+    "jenis": jenis,
+    "berat": berat,
+  });
+    }
 
   @override
   Widget build(BuildContext context) {

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'form_page.dart';
+import 'package:get/get.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -30,11 +31,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   Future<void> tambahSetoran() async {
-    final result = await Navigator.push(
-      context,
-      MaterialPageRoute(builder: (context) => const FormPage()),
-    );
-
+    final result =  await Get.to(() => const FormPage());
     if (result != null) {
       setState(() {
         dataSetoran.add(result);
@@ -150,14 +147,10 @@ class _HomePageState extends State<HomePage> {
                               IconButton(
                                 icon: const Icon(Icons.edit, color: Colors.green),
                                 onPressed: () async {
-                                  final result = await Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                      builder: (context) => FormPage(
-                                        initialData: dataSetoran[index],
-                                      ),
-                                    ),
+                                  final result = await Get.to(
+                                    () => FormPage(initialData: dataSetoran[index]),
                                   );
+
                                   if (result != null) {
                                     setState(() {
                                       dataSetoran[index] = result;
