@@ -82,3 +82,26 @@ Aplikasi memiliki beberapa halaman, yaitu:
 
 - **Navigator**  
   Digunakan untuk mengatur perpindahan halaman dalam aplikasi.
+
+## Screenshot Aplikasi
+#### <img width="1918" height="947" alt="image" src="https://github.com/user-attachments/assets/1d1fe5cc-6808-40a7-a9ed-8d781653dd5e" />
+Halaman Utama
+#### <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c3c983f4-98e8-4671-8239-3426993ecf92" />
+Halaman saat menambah setoran sampah
+#### <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ae373e06-4049-4e5b-9245-ff4e5780f4e3" />
+Setelah menginput setoran sampah yang baru
+#### <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cce0e5fd-dedf-4e4c-b289-34dd46c598f8" />
+Salah satu setoran sampah dihapus
+#### <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/301607f3-880a-481f-a0ff-dcfdaccb1471" />
+Halaman saat mengupdate atau edit setoran
+#### <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a9c6d048-9af8-49e1-851d-047b5cc0a686" />
+Setelah update atau edit setoran 
+#### <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/49c026b1-b5f7-4be5-aafc-bfdc6389114a" />
+Halaman jika belum ada setoran
+
+
+
+
+
+
+
